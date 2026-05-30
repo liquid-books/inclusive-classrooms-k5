@@ -1,10 +1,10 @@
 :::{figure} images/cover.png
 :label: fig-cover
-:alt: Inclusive Classrooms Teaching Every Child in K-5 cover by Dr. Ernesto Lee
+:alt: Inclusive Classrooms Teaching Every Child in K-5 cover by Esmerelda Zuniga and Dr. Ernesto Lee
 :width: 100%
 :align: center
 
-*Inclusive Classrooms: Teaching Every Child in K–5* · Dr. Ernesto Lee
+*Inclusive Classrooms: Teaching Every Child in K–5* · Esmerelda Zuniga & Dr. Ernesto Lee
 :::
 
 # Inclusive Classrooms: Teaching Every Child in K–5
