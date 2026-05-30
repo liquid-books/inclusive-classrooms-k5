@@ -1,0 +1,50 @@
+# MyST project configuration
+# Docs: https://mystmd.org/guide/configuration
+version: 1
+project:
+  title: "Inclusive Classrooms: Teaching Every Child in K-5"
+  subtitle: "A Practical Guide for Future Educators"
+  authors:
+    - name: Dr. Ernesto Lee
+  description: "A practical guide for future educators on building inclusive K-5 classrooms where every child belongs, thrives, and is seen."
+  keywords: [inclusive education, K-5, diversity, special education, UDL, culturally responsive teaching, pre-service teachers]
+  license: CC-BY-4.0
+  open_access: true
+  github: https://github.com/liquid-books/inclusive-classrooms-k5
+  exports:
+    - format: pdf
+  # Numbering
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    figure: true
+    table: true
+    equation: true
+  # Table of contents
+  toc:
+    - file: index.md
+    - title: "Chapter 1: Understanding Inclusion"
+      file: chapters/ch01-understanding-inclusion.md
+    - title: "Chapter 2: The Legal Landscape of Inclusive Education"
+      file: chapters/ch02-legal-landscape.md
+    - title: "Chapter 3: Learning Differences in K-5"
+      file: chapters/ch03-learning-differences.md
+    - title: "Chapter 4: Culturally Responsive Teaching"
+      file: chapters/ch04-culturally-responsive.md
+    - title: "Chapter 5: Designing an Inclusive Classroom"
+      file: chapters/ch05-classroom-design.md
+    - title: "Chapter 6: Differentiated Instruction and UDL"
+      file: chapters/ch06-differentiated-instruction.md
+    - title: "Chapter 7: Collaboration and Family Partnerships"
+      file: chapters/ch07-collaboration.md
+    - title: "Chapter 8: Assessment, Advocacy, and Your Future Classroom"
+      file: chapters/ch08-assessment-advocacy.md
+
+site:
+  title: "Inclusive Classrooms: Teaching Every Child in K-5"
+  options:
+    logo_text: "Inclusive Classrooms"
+    logo_url: "/inclusive-classrooms-k5/"
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
